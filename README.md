@@ -13,8 +13,10 @@ The game was first made in 2015 with Unity 5.1.1, and now updated to version 5.3
 * Collect the clefs to higher your score;
 * Don't die.
 
-![alt text](https://github.com/GloamingCat/A-Musical-Adventure/tree/master/screenshots/instructions.png)
-![alt text](https://github.com/GloamingCat/A-Musical-Adventure/tree/master/screenshots/stage.png)
+<p align="center">
+  <img src="https://github.com/GloamingCat/A-Musical-Adventure/tree/master/screenshots/instructions.png" width="350"/>
+  <img src="https://github.com/GloamingCat/A-Musical-Adventure/tree/master/screenshots/stage.png" width="350"/>
+</p>
 
 ## Installation
 
