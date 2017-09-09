@@ -14,8 +14,8 @@ The game was first made in 2015 with Unity 5.1.1, and now updated to version 5.3
 * Don't die.
 
 <p align="center">
-  <img src="https://github.com/GloamingCat/A-Musical-Adventure/tree/master/screenshots/instructions.png" width="350"/>
-  <img src="https://github.com/GloamingCat/A-Musical-Adventure/tree/master/screenshots/stage.png" width="350"/>
+  <img src="https://github.com/GloamingCat/A-Musical-Adventure/blob/master/screenshots/instructions.png?raw=true" width="350"/>
+  <img src="https://github.com/GloamingCat/A-Musical-Adventure/blob/master/screenshots/stage.png?raw=true" width="350"/>
 </p>
 
 ## Installation
