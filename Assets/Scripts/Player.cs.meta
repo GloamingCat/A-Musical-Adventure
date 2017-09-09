@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef75d903eb501d145b51d16337c103bb
+timeCreated: 1435355990
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - death: {fileID: 153696, guid: 017817b12ab75204491e8c4e0ea5ddd3, type: 2}
+  - restartButton: {fileID: 147160, guid: 84c9768b87d8c404db1b3fcf45bd9005, type: 2}
+  - exitButton: {fileID: 119422, guid: e71bb48bb9ac461478f24ec05f4a54bd, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
