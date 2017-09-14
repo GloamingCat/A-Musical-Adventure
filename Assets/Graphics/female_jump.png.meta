@@ -12,7 +12,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -22,7 +22,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -42,11 +42,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -64,6 +65,31 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 75}
+        - {x: -1, y: 75}
+        - {x: -29, y: 33}
+        - {x: -41, y: 8}
+        - {x: -41, y: -65}
+        - {x: -40, y: -67}
+        - {x: -22, y: -67}
+        - {x: 12, y: -58}
+        - {x: 41, y: 18}
+        - {x: 41, y: 71}
+      - - {x: -40, y: -27}
+        - {x: -38, y: -29}
+        - {x: -35, y: -28}
+        - {x: -35, y: -25}
+        - {x: -37, y: -23}
+        - {x: -40, y: -24}
+      - - {x: -40, y: 7}
+        - {x: -43, y: 4}
+        - {x: -43, y: 3}
+        - {x: -41, y: 1}
+        - {x: -39, y: 1}
+        - {x: -37, y: 3}
+        - {x: -37, y: 5}
+        - {x: -39, y: 7}
     - name: female_jump_1
       rect:
         serializedVersion: 2
@@ -74,6 +100,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 75}
+        - {x: -45, y: 26}
+        - {x: -45, y: -67}
+        - {x: -10, y: -67}
+        - {x: 41, y: -8}
+        - {x: 41, y: 75}
     - name: female_jump_2
       rect:
         serializedVersion: 2
@@ -84,6 +117,47 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 73}
+        - {x: -49, y: 55}
+        - {x: -58, y: 34}
+        - {x: -58, y: 13}
+        - {x: -29, y: -59}
+        - {x: 13, y: -59}
+        - {x: 37, y: -54}
+        - {x: 37, y: 73}
+      - - {x: -27, y: -43}
+        - {x: -26, y: -46}
+        - {x: -23, y: -46}
+        - {x: -21, y: -44}
+        - {x: -22, y: -41}
+        - {x: -25, y: -41}
+      - - {x: -28, y: -27}
+        - {x: -25, y: -26}
+        - {x: -25, y: -23}
+        - {x: -28, y: -22}
+        - {x: -30, y: -24}
+      - - {x: -55, y: -5}
+        - {x: -54, y: -8}
+        - {x: -49, y: -8}
+        - {x: -47, y: -6}
+        - {x: -48, y: -3}
+        - {x: -53, y: -3}
+      - - {x: -51, y: 11}
+        - {x: -48, y: 12}
+        - {x: -48, y: 15}
+        - {x: -51, y: 16}
+        - {x: -53, y: 14}
+      - - {x: 20, y: 12}
+        - {x: 23, y: 13}
+        - {x: 23, y: 16}
+        - {x: 20, y: 17}
+        - {x: 18, y: 15}
+      - - {x: -46, y: 20}
+        - {x: -43, y: 21}
+        - {x: -43, y: 24}
+        - {x: -46, y: 25}
+        - {x: -48, y: 23}
     - name: female_jump_3
       rect:
         serializedVersion: 2
@@ -94,6 +168,55 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -53}
+        - {x: -15, y: -55}
+        - {x: -15, y: -57}
+        - {x: -13, y: -59}
+        - {x: -10, y: -59}
+        - {x: -6, y: -55}
+        - {x: -6, y: -53}
+        - {x: -9, y: -52}
+      - - {x: -60, y: 80}
+        - {x: -60, y: 40}
+        - {x: -51, y: -15}
+        - {x: -8, y: -59}
+        - {x: 36, y: -59}
+        - {x: 36, y: 77}
+        - {x: 16, y: 80}
+      - - {x: -20, y: -49}
+        - {x: -18, y: -51}
+        - {x: -15, y: -50}
+        - {x: -15, y: -46}
+        - {x: -17, y: -44}
+        - {x: -20, y: -45}
+      - - {x: -31, y: -43}
+        - {x: -30, y: -46}
+        - {x: -27, y: -46}
+        - {x: -25, y: -44}
+        - {x: -26, y: -41}
+        - {x: -29, y: -41}
+      - - {x: -32, y: -27}
+        - {x: -29, y: -26}
+        - {x: -29, y: -23}
+        - {x: -32, y: -22}
+        - {x: -34, y: -24}
+      - - {x: -59, y: -5}
+        - {x: -58, y: -8}
+        - {x: -53, y: -8}
+        - {x: -51, y: -6}
+        - {x: -52, y: -3}
+        - {x: -57, y: -3}
+      - - {x: -55, y: 11}
+        - {x: -52, y: 12}
+        - {x: -52, y: 15}
+        - {x: -55, y: 16}
+        - {x: -57, y: 14}
+      - - {x: 16, y: 12}
+        - {x: 19, y: 13}
+        - {x: 19, y: 16}
+        - {x: 16, y: 17}
+        - {x: 14, y: 15}
     - name: female_jump_4
       rect:
         serializedVersion: 2
@@ -104,6 +227,59 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 82}
+        - {x: -55, y: 25}
+        - {x: -16, y: -59}
+        - {x: 36, y: -59}
+        - {x: 36, y: 74}
+        - {x: 11, y: 82}
+      - - {x: -20, y: -49}
+        - {x: -18, y: -51}
+        - {x: -15, y: -50}
+        - {x: -15, y: -46}
+        - {x: -17, y: -44}
+        - {x: -20, y: -45}
+      - - {x: -31, y: -43}
+        - {x: -30, y: -46}
+        - {x: -27, y: -46}
+        - {x: -25, y: -44}
+        - {x: -26, y: -41}
+        - {x: -29, y: -41}
+      - - {x: -32, y: -27}
+        - {x: -29, y: -26}
+        - {x: -29, y: -23}
+        - {x: -32, y: -22}
+        - {x: -34, y: -24}
+      - - {x: -18, y: -22}
+        - {x: -17, y: -25}
+        - {x: -14, y: -25}
+        - {x: -12, y: -23}
+        - {x: -13, y: -20}
+        - {x: -16, y: -20}
+      - - {x: -59, y: -5}
+        - {x: -58, y: -8}
+        - {x: -53, y: -8}
+        - {x: -51, y: -6}
+        - {x: -52, y: -3}
+        - {x: -57, y: -3}
+      - - {x: -55, y: 11}
+        - {x: -52, y: 12}
+        - {x: -52, y: 15}
+        - {x: -55, y: 16}
+        - {x: -57, y: 14}
+      - - {x: 16, y: 12}
+        - {x: 19, y: 13}
+        - {x: 19, y: 16}
+        - {x: 16, y: 17}
+        - {x: 14, y: 15}
+      - - {x: -58, y: 58}
+        - {x: -57, y: 55}
+        - {x: -54, y: 55}
+        - {x: -52, y: 57}
+        - {x: -53, y: 60}
+        - {x: -56, y: 60}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

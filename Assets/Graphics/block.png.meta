@@ -26,7 +26,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -46,11 +46,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 4, y: 4, z: 4, w: 4}
   spritePixelsToUnits: 200
   alphaIsTransparency: 1
@@ -68,6 +69,7 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_1
       rect:
         serializedVersion: 2
@@ -76,8 +78,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 2
-      pivot: {x: .5, y: 1}
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_2
       rect:
         serializedVersion: 2
@@ -88,6 +91,7 @@ TextureImporter:
       alignment: 3
       pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_3
       rect:
         serializedVersion: 2
@@ -96,8 +100,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 4
-      pivot: {x: 0, y: .5}
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_4
       rect:
         serializedVersion: 2
@@ -106,8 +111,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_5
       rect:
         serializedVersion: 2
@@ -116,8 +122,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 5
-      pivot: {x: 1, y: .5}
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_6
       rect:
         serializedVersion: 2
@@ -128,6 +135,7 @@ TextureImporter:
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_7
       rect:
         serializedVersion: 2
@@ -136,8 +144,9 @@ TextureImporter:
         width: 5
         height: 5
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: block_8
       rect:
         serializedVersion: 2
@@ -148,6 +157,8 @@ TextureImporter:
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

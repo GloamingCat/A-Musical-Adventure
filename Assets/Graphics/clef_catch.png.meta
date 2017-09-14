@@ -20,7 +20,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -40,11 +40,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -60,8 +61,17 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: .524999976, y: .524999976}
+      pivot: {x: 0.525, y: 0.525}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.599998, y: 12.400002}
+        - {x: -13.599998, y: 6.4000015}
+        - {x: -13.599998, y: -10.599998}
+        - {x: -9.599998, y: -15.599998}
+        - {x: 5.4000015, y: -15.599998}
+        - {x: 14.400002, y: -10.599998}
+        - {x: 14.400002, y: 11.400002}
+        - {x: 11.400002, y: 12.400002}
     - name: note_catch_1
       rect:
         serializedVersion: 2
@@ -70,8 +80,18 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: .529999971, y: .5}
+      pivot: {x: 0.53, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.919998, y: 20}
+        - {x: -21.919998, y: 14}
+        - {x: -21.919998, y: -16}
+        - {x: -17.919998, y: -20}
+        - {x: 14.080002, y: -20}
+        - {x: 18.080002, y: -19}
+        - {x: 18.080002, y: 12}
+        - {x: 16.080002, y: 18}
+        - {x: 12.080002, y: 20}
     - name: note_catch_2
       rect:
         serializedVersion: 2
@@ -80,8 +100,18 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -32, y: 29}
+        - {x: -32, y: -30}
+        - {x: -26, y: -32}
+        - {x: 24, y: -32}
+        - {x: 32, y: -24}
+        - {x: 32, y: 25}
+        - {x: 21, y: 32}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

@@ -28,7 +28,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -48,11 +48,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -68,8 +69,18 @@ TextureImporter:
         width: 192
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 92}
+        - {x: -10, y: 92}
+        - {x: -59, y: -7}
+        - {x: -59, y: -53}
+        - {x: -33, y: -68}
+        - {x: -5, y: -68}
+        - {x: 40, y: 1}
+        - {x: 44, y: 24}
+        - {x: 44, y: 87}
     - name: male_jump_1
       rect:
         serializedVersion: 2
@@ -78,8 +89,24 @@ TextureImporter:
         width: 192
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 92}
+        - {x: -8, y: 92}
+        - {x: -60, y: -8}
+        - {x: -60, y: -29}
+        - {x: -34, y: -68}
+        - {x: -6, y: -68}
+        - {x: 40, y: 1}
+        - {x: 44, y: 24}
+        - {x: 44, y: 87}
+      - - {x: -40, y: -27}
+        - {x: -38, y: -29}
+        - {x: -35, y: -28}
+        - {x: -35, y: -25}
+        - {x: -37, y: -23}
+        - {x: -40, y: -24}
     - name: male_jump_2
       rect:
         serializedVersion: 2
@@ -88,8 +115,16 @@ TextureImporter:
         width: 192
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 90}
+        - {x: -65, y: 69}
+        - {x: -65, y: -26}
+        - {x: -27, y: -59}
+        - {x: 36, y: -59}
+        - {x: 42, y: -13}
+        - {x: 42, y: 90}
     - name: male_jump_3
       rect:
         serializedVersion: 2
@@ -98,8 +133,26 @@ TextureImporter:
         width: 192
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 71}
+        - {x: 33, y: 90}
+        - {x: -34, y: 90}
+        - {x: -54, y: 84}
+        - {x: -73, y: 57}
+        - {x: -73, y: 33}
+        - {x: 2, y: -58}
+        - {x: 10, y: -59}
+        - {x: 33, y: -59}
+        - {x: 35, y: -56}
+        - {x: 41, y: -48}
+        - {x: 46, y: -25}
+      - - {x: -43, y: 73}
+        - {x: -40, y: 74}
+        - {x: -40, y: 77}
+        - {x: -43, y: 78}
+        - {x: -45, y: 76}
     - name: male_jump_4
       rect:
         serializedVersion: 2
@@ -108,8 +161,20 @@ TextureImporter:
         width: 192
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 71}
+        - {x: 33, y: 90}
+        - {x: -26, y: 90}
+        - {x: -70, y: 57}
+        - {x: -70, y: 30}
+        - {x: -3, y: -59}
+        - {x: 33, y: -59}
+        - {x: 35, y: -56}
+        - {x: 41, y: -48}
+        - {x: 46, y: -25}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

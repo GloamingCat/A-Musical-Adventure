@@ -19,7 +19,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -39,11 +39,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -61,6 +62,37 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 29}
+        - {x: -43, y: -20}
+        - {x: -43, y: -51}
+        - {x: -40, y: -65}
+        - {x: -37, y: -65}
+        - {x: -22, y: -62}
+        - {x: -18, y: -56}
+        - {x: -18, y: -54}
+        - {x: -21, y: -51}
+        - {x: -19, y: -50}
+        - {x: -17, y: -48}
+        - {x: -17, y: -46}
+        - {x: -14, y: -42}
+        - {x: -18, y: -50}
+        - {x: -18, y: -61}
+        - {x: -14, y: -65}
+        - {x: 57, y: -65}
+        - {x: 57, y: 19}
+        - {x: 55, y: 29}
+      - - {x: -47, y: -37}
+        - {x: -44, y: -36}
+        - {x: -44, y: -33}
+        - {x: -47, y: -32}
+        - {x: -49, y: -34}
+      - - {x: 12, y: 32}
+        - {x: 14, y: 30}
+        - {x: 17, y: 31}
+        - {x: 17, y: 34}
+        - {x: 15, y: 36}
+        - {x: 12, y: 35}
     - name: male_squat_1
       rect:
         serializedVersion: 2
@@ -71,6 +103,27 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -46, y: -24}
+        - {x: -46, y: -65}
+        - {x: 57, y: -65}
+        - {x: 57, y: 19}
+        - {x: 55, y: 29}
+      - - {x: -36, y: -50}
+        - {x: -39, y: -51}
+        - {x: -39, y: -55}
+        - {x: -31, y: -61}
+        - {x: -19, y: -61}
+        - {x: -18, y: -59}
+        - {x: -18, y: -53}
+        - {x: -20, y: -50}
+      - - {x: -47, y: -37}
+        - {x: -44, y: -36}
+        - {x: -44, y: -33}
+        - {x: -47, y: -32}
+        - {x: -49, y: -34}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

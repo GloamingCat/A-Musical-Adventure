@@ -24,7 +24,7 @@ Install Unity Engine from https://unity3d.com/ and import the repo was a Unity p
 
 The version used was 5.3.5f1, so it is not guaranteed to work on earlier or latter versions.
 
-If you are on Windows and wants to test the game, you can download the build folder and run the executable.
+If you want to play the game without opening the project, just access https://gloamingcat.github.io/Play-A-Musical-Adventure/.
 
 ## Credits
 

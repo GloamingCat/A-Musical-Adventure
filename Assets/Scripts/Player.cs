@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	public float runSpeed;
 	public float jumpSpeed;
 	public float jumpError;
-	public int maxJumpIncrease;
+	public float maxJumpIncrease;
 	public GameObject death;
 	public RuntimeAnimatorController[] controllers;
 
@@ -20,10 +20,12 @@ public class Player : MonoBehaviour {
 	AudioSource music;
 	Text timeText;
 	GameObject pauseHUD;
+	Text scoreText;
+	Text bestScoreText;
 
 	int score;
 	int time;
-	int jumpCount;
+	float jumpCount;
 
 	void Start() {
 		animator = GetComponent<Animator>();
@@ -35,7 +37,9 @@ public class Player : MonoBehaviour {
 
 		pauseHUD = GameObject.FindGameObjectWithTag ("pauseHUD");
 		timeText = GameObject.FindGameObjectWithTag ("time").GetComponent<Text> ();
-		GameObject.FindGameObjectWithTag ("best score").GetComponent<Text>().text = PlayerPrefs.GetInt("best score " + levelToLoad).ToString();
+		scoreText = GameObject.FindGameObjectWithTag ("player score").GetComponent<Text> ();
+		bestScoreText = GameObject.FindGameObjectWithTag ("best score").GetComponent<Text> ();
+		bestScoreText.text = PlayerPrefs.GetInt("best score " + levelToLoad).ToString();
 		GameObject.FindGameObjectWithTag ("deaths").GetComponent<Text>().text = PlayerPrefs.GetInt("deaths " + levelToLoad).ToString();
 		music.time = (transform.position.x - 750) / runSpeed;
 		music.Play();
@@ -105,7 +109,7 @@ public class Player : MonoBehaviour {
 		if (jumpCount > 0) {
 			if (Input.GetKey (KeyCode.Z) || Input.GetMouseButton (0)) {
 				rb2D.velocity = new Vector2(runSpeed, jumpSpeed);
-				jumpCount--;
+				jumpCount -= 60 * Time.deltaTime;
 			} else 
 				jumpCount = 0;
 		}
@@ -182,8 +186,8 @@ public class Player : MonoBehaviour {
 			best = score;
 			PlayerPrefs.SetInt ("best score " + levelToLoad, best);
 		}
-		GameObject.FindGameObjectWithTag ("player score").GetComponent<Text>().text = score.ToString();
-		GameObject.FindGameObjectWithTag ("best score").GetComponent<Text>().text = best.ToString();
+		scoreText.text = score.ToString();
+		bestScoreText.text = best.ToString();
 	}
 
 	public void Win() {
